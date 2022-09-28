@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&family=Ubuntu:ital@1&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.header {
+  height:50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-between;
+
+  > img {
+    height: 100%;
+  }
+
+  > div {
+    width: 100%;
+    margin-left: 4vmax;
+
+    > a {
+      margin: 1vmax;
+    }
+  }
+
+  > svg {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
